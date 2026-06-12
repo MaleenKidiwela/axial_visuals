@@ -12,16 +12,14 @@ and each cell writes a self-contained, rotatable HTML file (Plotly loaded from C
 *Preview of `axial_3d_with_amc_slider_MASKED.html` (full earthquake catalog). Open the HTML
 file in a browser for the interactive, rotatable view with the month-by-month time slider.*
 
-## Outputs
+## Output
 
-| HTML file | Source cell | What's different |
-|-----------|-------------|------------------|
-| `axial_3d_with_amc_slider.html` | Cell 1 | AMC gridded directly in the local XY frame (linear interpolation) |
-| `axial_3d_with_amc_slider_FULL.html` | Cell 2 | AMC reprojected via UTM → lat/lon, auto z-range so all layers stay visible |
-| `axial_3d_with_amc_slider_MASKED.html` | Cell 3 | AMC clipped to a convex-hull footprint, colored surfaces |
-| `axial_3d_FIXED_amc_quakes_slider.html` | (earlier export) | prior fixed-range variant |
+The final visualization is **`axial_3d_with_amc_slider_MASKED.html`** (produced by the last
+cell of the notebook): the AMC reflector is reprojected via UTM → lat/lon, clipped to its
+convex-hull footprint, and the surfaces are colored. Earlier notebook cells explore other
+AMC-gridding approaches but their HTML exports are not kept.
 
-Each plot contains:
+The plot contains:
 
 - **West wall** and **East wall** — polynomial fault surfaces fit to wall point clouds
 - **AMC surface** — magma-chamber reflector top
