@@ -7,6 +7,11 @@ and the earthquake catalog with a month-by-month time slider.
 Everything is built in `axial visuals.ipynb` using [Plotly](https://plotly.com/python/),
 and each cell writes a self-contained, rotatable HTML file (Plotly loaded from CDN).
 
+![Axial Seamount 3D view](preview_masked.png)
+
+*Preview of `axial_3d_with_amc_slider_MASKED.html` (full earthquake catalog). Open the HTML
+file in a browser for the interactive, rotatable view with the month-by-month time slider.*
+
 ## Outputs
 
 | HTML file | Source cell | What's different |
